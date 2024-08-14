@@ -7,7 +7,10 @@
       </button>
     </div>
 
-    <div v-show="showForm.value" class="col-6 mx-auto bg-light p-3 rounded">
+    <div
+      v-show="showForm.value"
+      class="col-12 col-md-6 mx-auto bg-light p-3 rounded"
+    >
       <form @submit.prevent="addNewPost">
         <div class="mb-3">
           <label for="title" class="form-label">Title :</label>

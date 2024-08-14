@@ -1,6 +1,9 @@
 <template>
-  <div class="hello">
-    <h1 class="text-center">{{ msg }}</h1>
+  <div class="hello container text-center">
+    <h3 class="fs-1 fs-md-3 fs-lg-5 mb-3">{{ msg }}</h3>
+    <router-link to="/firebase" class="btn btn-primary text-white">
+      Visit Firebase Component
+    </router-link>
   </div>
 </template>
 
